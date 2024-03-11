@@ -1,0 +1,15 @@
+.similar-movie-image {
+  margin-right: 13px;
+  margin-bottom: 12px;
+  height: 64px;
+  width: 90px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .similar-movie-image {
+    margin-right: 30px;
+    margin-bottom: 32px;
+    height: 170px;
+    width: 255px;
+  }
+}

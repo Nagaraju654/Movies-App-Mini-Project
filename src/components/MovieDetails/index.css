@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.movie-detail-page {
+  background-size: cover;
+  min-height: 60vh;
+}
+.movie-detail-movie-page {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 427px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #131313 92.82%,
+    #131313 98.68%,
+    #131313 108.61%
+  );
+}
+.title {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 47px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.overview {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  word-wrap: break-word;
+  line-height: 22px;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+.play-button {
+  background-color: #ffffff;
+  font-style: normal;
+  border: none;
+  border-radius: 4px;
+  width: 76px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.7px;
+  color: #171f46;
+}
+.more-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 177px;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.duration {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  font-style: normal;
+}
+.certificate-name {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  font-style: normal;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 25px;
+  width: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.release-year {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  font-style: normal;
+}
+.info {
+  padding-right: 10px;
+}
+.movie-info {
+  padding-left: 32px;
+  padding-right: 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.info-heading {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.budget-info {
+  padding-top: 10px;
+}
+.info-name {
+  margin-bottom: 4px;
+}
+.info-items {
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+.similar-movies-container {
+  margin-right: 19px;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.more-like-this-text {
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.similar-movies-list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-detail-page {
+    min-height: 500px;
+  }
+  .movie-detail-movie-page {
+    min-height: 500px;
+    padding-left: 145px;
+    padding-right: 145px;
+    padding-bottom: 42px;
+  }
+  .title {
+    font-size: 48px;
+    line-height: 63px;
+    padding-bottom: 0px;
+  }
+  .overview {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    width: 75%;
+  }
+  .play-button {
+    width: 74px;
+    height: 40px;
+  }
+  .more-details {
+    width: 190px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+  .duration {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .certificate-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .release-year {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .additional-information {
+    margin-top: 24px;
+    padding-left: 145px;
+    padding-right: 135px;
+  }
+
+  .movie-info {
+    padding: 0px;
+  }
+  .info-heading {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+  .budget-info {
+    padding-top: 0px;
+  }
+  .info-items {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .similar-movies-container {
+    margin: 0px;
+    margin-top: 24px;
+  }
+  .more-like-this-text {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 24px;
+  }
+}

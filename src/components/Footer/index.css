@@ -1,0 +1,22 @@
+.footer-main-container {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.footer-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icon {
+  color: #ffffff;
+  font-size: 26px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.contact-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}

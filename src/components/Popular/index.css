@@ -1,0 +1,26 @@
+.popular-container {
+  padding-left: 32px;
+  padding-right: 19px;
+  padding-top: 75px;
+  min-height: 100vh;
+  background-size: cover;
+}
+.popular-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-container {
+    padding-left: 145px;
+    padding-right: 115px;
+    padding-top: 100px;
+  }
+  .popular-items {
+    margin-top: 32px;
+  }
+}

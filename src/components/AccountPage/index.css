@@ -1,0 +1,133 @@
+.account-page {
+  background-color: #ffffff;
+  min-height: 70vh;
+  background-size: cover;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  margin-top: 75px;
+  font-family: 'Roboto';
+}
+.account-heading {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+}
+.separator {
+  border: none;
+  border-top: 3px solid #cbd5e1;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.member-ship-details {
+  display: flex;
+  margin-bottom: 24px;
+}
+.member-ship-text {
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 11px;
+}
+.username {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+}
+.password {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0px;
+}
+.plan-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.plan-details-text {
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.plan-name {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 23px;
+  line-height: 24px;
+}
+.plan-features {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 13px;
+  line-height: 18px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log-out-button {
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  width: 89px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-page {
+    padding-left: 145px;
+    padding-right: 145px;
+    margin-top: 103px;
+  }
+  .account-heading {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .member-ship-text {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .username {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .password {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .plan-details-text {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .plan-name {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .plan-features {
+    font-size: 18px;
+    line-height: 23px;
+    height: 23px;
+    width: 90px;
+  }
+  .log-out-button {
+    margin-top: 38px;
+    margin-bottom: 48px;
+  }
+}
